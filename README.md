@@ -24,6 +24,7 @@ assets/css/style.css     styles, dark by default with a light toggle
 assets/js/script.js      nav, theme toggle, scroll reveal
 assets/img/profile.webp  profile photo (4:5, WebP)
 assets/img/apps/         app icons (192px WebP)
+favicon.*, icon-*.png    favicons, Apple touch icon, manifest icons
 ```
 
 ## Run locally
