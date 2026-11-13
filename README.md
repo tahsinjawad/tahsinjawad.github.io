@@ -1,29 +1,44 @@
 # tahsinjawad.github.io
 
-Personal portfolio for Tahsin Jawad, Senior Mobile Engineer in Sydney.
+Personal portfolio of **Tahsin Jawad**, Senior Mobile Engineer based in Sydney.
 
-Live at https://tahsinjawad.github.io
+🔗 **Live:** https://tahsinjawad.github.io
+
+iOS first. Android close behind. React Native when one codebase makes sense. 7+ years shipping apps used by millions, including MyGP (14M+ MAU, 99.3% crash-free) and OneGP (replaced Workday, $7M AUD saved a year).
+
+## What's on the site
+
+- **About:** who I am, key numbers, what I'm looking for
+- **Expertise:** iOS, Android and React Native, plus the tools I actually use
+- **Work:** MyGP, OneGP, Noor, Meena Bazar and Shishu Profile, with store links
+- **Experience:** Miaki, Wipro, Hexamatics, MCC and VU Mobile
+- **Contact:** email, GitHub, LinkedIn
 
 ## Stack
 
-Plain HTML, CSS and vanilla JS. No build step. `.nojekyll` makes GitHub Pages serve the files as-is.
+Plain HTML, CSS and vanilla JS. No framework, no build step. `.nojekyll` tells GitHub Pages to serve the files as-is.
 
 ```
-index.html            single-page site
-assets/css/style.css  styles, dark default with light toggle
-assets/js/script.js   nav, theme toggle, scroll reveal
-assets/img/           drop profile.jpg here to replace the TJ placeholder
+index.html               single-page site
+assets/css/style.css     styles, dark by default with a light toggle
+assets/js/script.js      nav, theme toggle, scroll reveal
+assets/img/profile.jpg   profile photo (4:5)
 ```
 
-## Local preview
+## Run locally
 
-```
+```bash
 python3 -m http.server 8000
 ```
 
-Then open http://localhost:8000.
+Open http://localhost:8000.
 
-## Updating
+## Editing
 
-- Profile photo: add `assets/img/profile.jpg` (4:5 ratio works best).
-- Projects and roles: edit the matching `<article>` blocks in `index.html`.
+- Projects and roles live in the `<article>` blocks in `index.html`.
+- Swap the photo by replacing `assets/img/profile.jpg`. Keep it 4:5.
+- Accent colour is `--accent` at the top of `style.css`.
+
+## Contact
+
+[tahsanjawad@gmail.com](mailto:tahsanjawad@gmail.com) · [LinkedIn](https://www.linkedin.com/in/tahsinjawad) · [GitHub](https://github.com/tahsinjawad)
