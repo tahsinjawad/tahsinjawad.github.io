@@ -10,7 +10,7 @@ iOS first. Android close behind. React Native when one codebase makes sense. 7+ 
 
 - **About:** who I am, key numbers, what I'm looking for
 - **Expertise:** iOS, Android and React Native, plus the tools I actually use
-- **Work:** MyGP, OneGP, Noor, Meena Bazar and Shishu Profile, with store links
+- **Work:** MyGP, OneGP, Noor and Meena Bazar, with app icons and store links
 - **Experience:** Miaki, Wipro, Hexamatics, MCC and VU Mobile
 - **Contact:** email, GitHub, LinkedIn
 
@@ -22,7 +22,8 @@ Plain HTML, CSS and vanilla JS. No framework, no build step. `.nojekyll` tells G
 index.html               single-page site
 assets/css/style.css     styles, dark by default with a light toggle
 assets/js/script.js      nav, theme toggle, scroll reveal
-assets/img/profile.jpg   profile photo (4:5)
+assets/img/profile.webp  profile photo (4:5, WebP)
+assets/img/apps/         app icons (192px WebP)
 ```
 
 ## Run locally
@@ -36,7 +37,7 @@ Open http://localhost:8000.
 ## Editing
 
 - Projects and roles live in the `<article>` blocks in `index.html`.
-- Swap the photo by replacing `assets/img/profile.jpg`. Keep it 4:5.
+- Swap the photo by replacing `assets/img/profile.webp`. Keep it 4:5 and save as WebP.
 - Accent colour is `--accent` at the top of `style.css`.
 
 ## Contact
