@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tahsin Jawad | Senior Mobile Engineer</title>
+<meta name="description" content="Tahsin Jawad. Senior Mobile Engineer in Sydney. iOS first, Android second, React Native when it fits. 7+ years shipping apps used by millions.">
+<meta property="og:title" content="Tahsin Jawad | Senior Mobile Engineer">
+<meta property="og:description" content="iOS first, Android second, React Native when it fits. 7+ years shipping apps used by millions.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://tahsinjawad.github.io/">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2222%22 fill=%22%233b82f6%22/><text x=%2250%22 y=%2266%22 font-size=%2248%22 font-family=%22monospace%22 font-weight=%22700%22 fill=%22white%22 text-anchor=%22middle%22>TJ</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<script>
+  (function () {
+    try { if (localStorage.getItem('theme') === 'light') document.documentElement.setAttribute('data-theme', 'light'); } catch (e) {}
+  })();
+</script>
+</head>
+<body>
+
+<div class="scroll-progress" id="scrollProgress"></div>
+<div class="grain"></div>
+<div class="cursor" id="cursor" aria-hidden="true"></div>
+
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#home" class="brand">
+      <span class="brand-mark">TJ</span>
+      <span class="brand-status"><i></i> Open to work</span>
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#stack">Expertise</a>
+      <a href="#work">Work</a>
+      <a href="#experience">Experience</a>
+    </nav>
+    <div class="nav-right">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <svg class="icon-sun" viewBox="0 0 24 24" width="17" height="17"><circle cx="12" cy="12" r="4.5" fill="currentColor"/><g stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></g></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" width="17" height="17"><path fill="currentColor" d="M21.64 13a1 1 0 0 0-1.05-.14 8 8 0 0 1-9.45-9.45 1 1 0 0 0-1.19-1.19A10 10 0 1 0 22 14.05a1 1 0 0 0-.36-1.05Z"/></svg>
+      </button>
+      <a href="#contact" class="btn btn-primary btn-sm">Let's talk</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <h1 class="reveal">Tahsin<br>Jawad</h1>
+          <p class="hero-role reveal">Senior Mobile Engineer · iOS &amp; Android</p>
+          <p class="hero-desc reveal">
+            I build and ship mobile apps that real people use every day. Right now that means a telco
+            super-app with <span class="hl">14M+ monthly users</span> and a 99.3% crash-free rate.
+            iOS is home. Android is close behind.
+          </p>
+          <div class="hero-actions reveal">
+            <a href="#work" class="btn btn-primary">See the work <span class="arr">↓</span></a>
+            <a href="#contact" class="btn btn-ghost">Get in touch</a>
+          </div>
+          <div class="hero-socials reveal">
+            <a href="https://github.com/tahsinjawad" target="_blank" rel="noopener" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" width="17" height="17"><path fill="currentColor" d="M12 .5a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.17c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.75.08-.73.08-.73 1.21.08 1.85 1.24 1.85 1.24 1.07 1.84 2.81 1.31 3.5 1 .11-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.12-.3-.54-1.53.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.63-5.49 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58A12 12 0 0 0 12 .5Z"/></svg>
+              GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/tahsinjawad" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" width="17" height="17"><path fill="currentColor" d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.15 1.45-2.15 2.94v5.67H9.35V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45Z"/></svg>
+              LinkedIn
+            </a>
+            <a href="mailto:tahsanjawad@gmail.com" aria-label="Email">
+              <svg viewBox="0 0 24 24" width="17" height="17"><path fill="currentColor" d="M2 5.5A1.5 1.5 0 0 1 3.5 4h17A1.5 1.5 0 0 1 22 5.5v13a1.5 1.5 0 0 1-1.5 1.5h-17A1.5 1.5 0 0 1 2 18.5v-13Zm2.2.3 7.3 5.85a.8.8 0 0 0 1 0l7.3-5.85H4.2ZM20 7.4l-7.02 5.62a2.3 2.3 0 0 1-2.86 0L3.1 7.4V18h16.9V7.4Z"/></svg>
+              Email
+            </a>
+          </div>
+        </div>
+        <div class="hero-photo reveal">
+          <div class="photo-frame">
+            <img src="assets/img/profile.jpg" alt="Tahsin Jawad"
+                 onerror="this.style.display='none';this.parentNode.classList.add('no-photo');">
+            <span class="photo-fallback">TJ</span>
+          </div>
+          <div class="photo-badge photo-badge-1">7+ yrs<small>shipping mobile</small></div>
+          <div class="photo-badge photo-badge-2">Sydney<small>Australia 🇦🇺</small></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="tech-strip">
+      <div class="container tech-strip-inner">
+        <span class="tech-strip-label">Core stack</span>
+        <div class="tech-strip-items">
+          <span>Swift</span><span>SwiftUI</span><span>UIKit</span><span>Kotlin</span><span>Jetpack Compose</span><span>React Native</span><span>Clean Architecture</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-idx">01</span>
+        <h2 class="section-title">About me</h2>
+      </div>
+
+      <div class="bento reveal">
+        <div class="bento-top">
+          <div class="bento-card bento-bio">
+            <p>
+              I'm a Senior Mobile Engineer with <strong>7+ years</strong> of building production apps for telcos,
+              enterprises, government and NGOs. Native <strong>iOS</strong> is my main craft.
+              <strong>Android</strong> is a strong second. <strong>React Native</strong> is there when one
+              codebase makes more sense.
+            </p>
+            <p>
+              I like the unglamorous parts. Release pipelines. Crash rates. Cold-start times. Migrating
+              <span class="hl">200+ screens</span> from Objective-C to Swift without a single production incident.
+              Good apps are boring in the best way: fast, stable, predictable.
+            </p>
+          </div>
+
+          <div class="bento-right">
+            <div class="bento-stats">
+              <div class="bento-card bento-stat">
+                <span class="stat-num">14M+</span>
+                <span class="stat-label">Monthly active users on MyGP</span>
+              </div>
+              <div class="bento-card bento-stat">
+                <span class="stat-num">99.3%</span>
+                <span class="stat-label">Crash-free sessions</span>
+              </div>
+              <div class="bento-card bento-stat">
+                <span class="stat-num">$7M</span>
+                <span class="stat-label">AUD saved per year by OneGP</span>
+              </div>
+              <div class="bento-card bento-stat">
+                <span class="stat-num">28%</span>
+                <span class="stat-label">Faster cold start on MyGP</span>
+              </div>
+            </div>
+
+            <div class="bento-card bento-values">
+              <span class="mini-label">Focus</span>
+              <div class="chips">
+                <span>Clean Architecture</span><span>Performance</span><span>Release Engineering</span><span>Mentoring</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bento-bottom">
+          <div class="bento-card bento-now">
+            <span class="mini-label"><i class="dot-live"></i> Currently</span>
+            <h3>Senior Software Engineer</h3>
+            <p>Miaki Ltd, for Grameenphone (Telenor) · leading iOS on MyGP, remote from Sydney</p>
+          </div>
+          <div class="bento-card bento-now">
+            <span class="mini-label">Looking for</span>
+            <h3>Senior or Lead Mobile roles</h3>
+            <p>Product teams in Sydney where mobile is a first-class product. Permanent or contract.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Expertise -->
+  <section class="section section-tint" id="stack">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-idx">02</span>
+        <h2 class="section-title">Platform expertise</h2>
+      </div>
+      <p class="section-lead reveal">Ordered by depth. No padding.</p>
+
+      <div class="expertise-grid reveal">
+        <article class="xp-card" style="--xp:#3b82f6;">
+          <div class="ring" style="--val:95;">
+            <svg class="ring-svg" viewBox="0 0 100 100"><circle class="ring-bg" cx="50" cy="50" r="42"/><circle class="ring-fg" cx="50" cy="50" r="42"/></svg>
+            <span class="ring-ico"><svg viewBox="0 0 24 24" width="30" height="30"><path fill="currentColor" d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09Zm3.378-2.966c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701Z"/></svg></span>
+          </div>
+          <span class="xp-badge">Expert</span>
+          <h3>iOS</h3>
+          <p>Swift · SwiftUI · UIKit · Obj-C</p>
+        </article>
+        <article class="xp-card" style="--xp:#3ddc84;">
+          <div class="ring" style="--val:80;">
+            <svg class="ring-svg" viewBox="0 0 100 100"><circle class="ring-bg" cx="50" cy="50" r="42"/><circle class="ring-fg" cx="50" cy="50" r="42"/></svg>
+            <span class="ring-ico"><svg viewBox="0 0 24 24" width="32" height="32"><path fill="currentColor" d="M17.523 15.341a1 1 0 1 1 0-2 1 1 0 0 1 0 2m-11.046 0a1 1 0 1 1 0-2 1 1 0 0 1 0 2m11.405-6.02 1.997-3.459a.416.416 0 0 0-.72-.416l-2.022 3.503A12.26 12.26 0 0 0 12 7.851c-1.838 0-3.59.393-5.137 1.099L4.841 5.447a.416.416 0 0 0-.72.416l1.997 3.46C2.689 11.187.343 14.659 0 18.761h24c-.343-4.102-2.689-7.574-6.118-9.44"/></svg></span>
+          </div>
+          <span class="xp-badge">Advanced</span>
+          <h3>Android</h3>
+          <p>Kotlin · Jetpack Compose · Java</p>
+        </article>
+        <article class="xp-card" style="--xp:#61dafb;">
+          <div class="ring" style="--val:55;">
+            <svg class="ring-svg" viewBox="0 0 100 100"><circle class="ring-bg" cx="50" cy="50" r="42"/><circle class="ring-fg" cx="50" cy="50" r="42"/></svg>
+            <span class="ring-ico"><svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.3"><ellipse cx="12" cy="12" rx="10" ry="4"/><ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(60 12 12)"/><ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(120 12 12)"/><circle cx="12" cy="12" r="1.8" fill="currentColor" stroke="none"/></svg></span>
+          </div>
+          <span class="xp-badge">Working proficiency</span>
+          <h3>React Native</h3>
+          <p>TypeScript · Native modules</p>
+        </article>
+      </div>
+
+      <div class="stack-groups reveal">
+        <div class="stack-col">
+          <span class="mini-label">Apple</span>
+          <div class="chips"><span>SwiftUI</span><span>UIKit</span><span>Combine</span><span>async/await</span><span>Core Data</span><span>AVFoundation</span></div>
+        </div>
+        <div class="stack-col">
+          <span class="mini-label">Android</span>
+          <div class="chips"><span>Compose</span><span>Coroutines</span><span>Hilt</span><span>Room</span><span>WorkManager</span><span>Retrofit</span></div>
+        </div>
+        <div class="stack-col">
+          <span class="mini-label">Architecture</span>
+          <div class="chips"><span>MVVM</span><span>Clean Architecture</span><span>Coordinator</span><span>Modular</span><span>SOLID</span></div>
+        </div>
+        <div class="stack-col">
+          <span class="mini-label">Data &amp; security</span>
+          <div class="chips"><span>Keychain</span><span>Android Keystore</span><span>Realm</span><span>SQLite</span><span>Offline sync</span></div>
+        </div>
+        <div class="stack-col">
+          <span class="mini-label">Testing</span>
+          <div class="chips"><span>XCTest</span><span>XCUITest</span><span>JUnit</span><span>Espresso</span><span>MockK</span></div>
+        </div>
+        <div class="stack-col">
+          <span class="mini-label">CI/CD &amp; release</span>
+          <div class="chips"><span>Jenkins</span><span>Fastlane</span><span>GitHub Actions</span><span>TestFlight</span><span>Play Console</span></div>
+        </div>
+        <div class="stack-col">
+          <span class="mini-label">Firebase</span>
+          <div class="chips"><span>Crashlytics</span><span>Analytics</span><span>FCM</span><span>Remote Config</span></div>
+        </div>
+        <div class="stack-col">
+          <span class="mini-label">Tools</span>
+          <div class="chips"><span>Xcode</span><span>Instruments</span><span>Android Studio</span><span>LeakCanary</span><span>Charles</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Work -->
+  <section class="section" id="work">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-idx">03</span>
+        <h2 class="section-title">Selected work</h2>
+      </div>
+      <p class="section-lead reveal">Live apps. Real users. Store links included.</p>
+
+      <div class="work-grid">
+
+        <article class="work-card reveal" style="--c1:#0b3a75;--c2:#1d6fd8;">
+          <div class="work-cover">
+            <span class="work-mono">MyGP</span>
+            <span class="work-scale">14M+ MAU</span>
+          </div>
+          <div class="work-body">
+            <div class="work-titles">
+              <h3>MyGP</h3>
+              <span class="work-org">Grameenphone · Telenor</span>
+            </div>
+            <p>Bangladesh's largest telco super-app. I lead iOS and own the release cycle on both stores.
+               Cut cold-start time by 28%, built live sports streaming with adaptive playback, and shipped
+               Auto Recharge. 99.3% crash-free.</p>
+            <div class="chips"><span>SwiftUI</span><span>UIKit</span><span>Combine</span><span>Jenkins</span></div>
+            <div class="work-links">
+              <a href="https://apps.apple.com/au/app/mygp-bangladesh/id1128691313" target="_blank" rel="noopener">App Store ↗</a>
+              <a href="https://play.google.com/store/apps/details?id=com.portonics.mygp" target="_blank" rel="noopener">Google Play ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="work-card reveal" style="--c1:#1e3a8a;--c2:#4338ca;">
+          <div class="work-cover">
+            <span class="work-mono">OneGP</span>
+            <span class="work-scale">$7M AUD / yr</span>
+          </div>
+          <div class="work-body">
+            <div class="work-titles">
+              <h3>OneGP</h3>
+              <span class="work-org">Grameenphone · Enterprise HRM</span>
+            </div>
+            <p>HR platform that replaced Workday for 5,000+ employees. Leave, Payroll and Overtime modules
+               with secure auth. Solo 200+ screen Objective-C to Swift migration, zero downtime, 25% faster.
+               App size cut from 23MB to 12MB.</p>
+            <div class="chips"><span>Swift</span><span>Keychain</span><span>XCTest</span><span>Offline sync</span></div>
+            <div class="work-links">
+              <a href="https://play.google.com/store/apps/details?id=com.grameenphone.onegp" target="_blank" rel="noopener">Google Play ↗</a>
+              <a href="https://onegp.grameenphone.com/app/index.html" target="_blank" rel="noopener">Enterprise ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="work-card reveal" style="--c1:#064e3b;--c2:#0f766e;">
+          <div class="work-cover">
+            <span class="work-mono">Noor</span>
+            <span class="work-scale">4.5★</span>
+          </div>
+          <div class="work-body">
+            <div class="work-titles">
+              <h3>Noor</h3>
+              <span class="work-org">Robi Axiata</span>
+            </div>
+            <p>Faith companion app. Location-aware prayer times, offline Quran audio, and a content caching
+               pipeline so it works on patchy networks.</p>
+            <div class="chips"><span>CoreLocation</span><span>AVFoundation</span><span>Caching</span></div>
+            <div class="work-links">
+              <a href="https://apps.apple.com/au/app/noor-quran-namaz-hadith/id1645748902" target="_blank" rel="noopener">App Store ↗</a>
+              <a href="https://play.google.com/store/apps/details?id=com.mcc.noor" target="_blank" rel="noopener">Google Play ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="work-card reveal" style="--c1:#7c2d12;--c2:#c2410c;">
+          <div class="work-cover">
+            <span class="work-mono">Meena Bazar</span>
+            <span class="work-scale">E-commerce</span>
+          </div>
+          <div class="work-body">
+            <div class="work-titles">
+              <h3>Meena Bazar</h3>
+              <span class="work-org">Grocery e-commerce</span>
+            </div>
+            <p>Live grocery app on both stores. Part of a 10-person team that cut network latency by 20%.
+               Worked on the shopping journey: catalogue, cart, checkout, SSLCOMMERZ payments, push and
+               deep links.</p>
+            <div class="chips"><span>React Native</span><span>Swift</span><span>Kotlin</span><span>FCM</span></div>
+            <div class="work-links">
+              <a href="https://apps.apple.com/au/app/meena-bazar-online/id6451228785" target="_blank" rel="noopener">App Store ↗</a>
+              <a href="https://play.google.com/store/apps/details?id=com.meenabazaronline" target="_blank" rel="noopener">Google Play ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="work-card work-wide reveal" style="--c1:#0c4a6e;--c2:#0284c7;">
+          <div class="work-cover">
+            <span class="work-mono">Shishu Profile</span>
+            <span class="work-scale">Nationwide</span>
+          </div>
+          <div class="work-body">
+            <div class="work-titles">
+              <h3>Shishu Profile</h3>
+              <span class="work-org">UNICEF Bangladesh</span>
+            </div>
+            <p>Child health tracking app deployed across Bangladesh. Built alongside internal apps for the
+               Bangladesh Police, City Corporation and the National Helpline.</p>
+            <div class="chips"><span>iOS</span><span>Android</span><span>Public sector</span></div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section class="section section-tint" id="experience">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-idx">04</span>
+        <h2 class="section-title">Experience</h2>
+      </div>
+
+      <div class="exp-list">
+        <article class="exp-row reveal">
+          <div class="exp-when"><span class="exp-dates">2024 – Now</span></div>
+          <div class="exp-main">
+            <h3>Miaki Ltd <span class="exp-co">· Grameenphone (Telenor)</span></h3>
+            <p class="exp-sub">Sydney, Australia · Remote</p>
+            <div class="role-track">
+              <div class="role-step">
+                <div class="role-head">
+                  <span class="role-title">Senior Software Engineer</span>
+                  <span class="role-date">Jul 2024 – Present</span>
+                </div>
+                <ul>
+                  <li>Lead iOS on MyGP, 14M MAU at 99.3% crash-free</li>
+                  <li>Own the full App Store and Google Play release cycle, build to production</li>
+                  <li>Rebuilt the home feed with infinite scroll and a caching strategy agreed with backend</li>
+                  <li>Integrated third-party live video SDKs without hurting stability at scale</li>
+                  <li>Set up Jenkins CI/CD for build, test and deploy. Mentor engineers through code review</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="exp-row reveal">
+          <div class="exp-when"><span class="exp-dates">2023 – 2024</span></div>
+          <div class="exp-main">
+            <h3>Wipro</h3>
+            <p class="exp-sub">Dhaka, Bangladesh</p>
+            <div class="role-track">
+              <div class="role-step">
+                <div class="role-head">
+                  <span class="role-title">Senior Software Engineer</span>
+                  <span class="role-date">Aug 2023 – Jun 2024</span>
+                </div>
+                <ul>
+                  <li>Delivered OneGP, the HRM platform that replaced Workday and saves $7M AUD a year</li>
+                  <li>Migrated 200+ screens from Objective-C to Swift solo. Zero production incidents, 25% faster</li>
+                  <li>Cut app size from 23MB to 12MB and crash rate by 30%</li>
+                  <li>Built the unit and UI test foundation while the migration was still live</li>
+                  <li>Jenkins pipeline cut release cycle time by 70%</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="exp-row reveal">
+          <div class="exp-when"><span class="exp-dates">2021 – 2023</span></div>
+          <div class="exp-main">
+            <h3>Hexamatics</h3>
+            <p class="exp-sub">Dhaka, Bangladesh</p>
+            <div class="role-track">
+              <div class="role-step">
+                <div class="role-head">
+                  <span class="role-title">Senior Software Engineer</span>
+                  <span class="role-date">Oct 2021 – Aug 2023</span>
+                </div>
+                <ul>
+                  <li>Started OneGP for Grameenphone from scratch</li>
+                  <li>Set up MVVM and Clean Architecture patterns later reused across projects</li>
+                  <li>Coached 3 engineers through daily pair programming</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="exp-row reveal">
+          <div class="exp-when"><span class="exp-dates">2020 – 2021</span></div>
+          <div class="exp-main">
+            <h3>Multimedia Content &amp; Communications Ltd</h3>
+            <p class="exp-sub">Dhaka, Bangladesh</p>
+            <div class="role-track">
+              <div class="role-step">
+                <div class="role-head">
+                  <span class="role-title">Software Engineer</span>
+                  <span class="role-date">Sep 2020 – Aug 2021</span>
+                </div>
+                <ul>
+                  <li>Built Shishu Profile for UNICEF Bangladesh</li>
+                  <li>Built internal apps for the Bangladesh Police, City Corporation and National Helpline</li>
+                  <li>Worked on Meena Bazar, cutting network latency by 20%</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="exp-row reveal">
+          <div class="exp-when"><span class="exp-dates">2019 – 2020</span></div>
+          <div class="exp-main">
+            <h3>VU Mobile Ltd</h3>
+            <p class="exp-sub">Dhaka, Bangladesh</p>
+            <div class="role-track">
+              <div class="role-step">
+                <div class="role-head">
+                  <span class="role-title">Junior Mobile Developer</span>
+                  <span class="role-date">Feb 2019 – Aug 2020</span>
+                </div>
+                <ul>
+                  <li>Built real-time live streaming apps for telecom VAS platforms</li>
+                  <li>Tuned memory and buffering for 17% faster video streams</li>
+                  <li>Handled carrier billing integration</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div class="awards reveal">
+        <div class="award-card"><span class="award-ic">🎓</span><div><h4>B.Sc. in CSE</h4><p>Daffodil International University · 2019</p></div></div>
+        <div class="award-card"><span class="award-ic">📱</span><div><h4>Certified iOS Developer</h4><p>iOS &amp; Swift Bootcamp · Udemy</p></div></div>
+        <div class="award-card"><span class="award-ic">🧭</span><div><h4>Mentor</h4><p>5 engineers coached across teams</p></div></div>
+        <div class="award-card"><span class="award-ic">🚀</span><div><h4>4 live apps</h4><p>On the App Store and Google Play</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="contact-inner reveal">
+        <span class="mini-label"><i class="dot-live"></i> Available on short notice</span>
+        <h2 class="contact-head">Need someone to own your mobile app?</h2>
+        <a href="mailto:tahsanjawad@gmail.com" class="contact-mail">tahsanjawad@gmail.com</a>
+        <div class="contact-actions">
+          <a href="mailto:tahsanjawad@gmail.com" class="btn btn-primary">Send me an email</a>
+        </div>
+        <div class="contact-links">
+          <a href="https://github.com/tahsinjawad" target="_blank" rel="noopener">GitHub <span class="ext">↗</span></a>
+          <a href="https://www.linkedin.com/in/tahsinjawad" target="_blank" rel="noopener">LinkedIn <span class="ext">↗</span></a>
+          <a href="mailto:tahsanjawad@gmail.com">Email <span class="ext">↗</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <p>© <span id="year"></span> Tahsin Jawad</p>
+    <p class="footer-made">Plain HTML, CSS &amp; JS</p>
+    <a href="#home" class="back-to-top">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>
