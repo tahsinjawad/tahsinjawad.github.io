@@ -78,3 +78,20 @@ if (cursor && window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
     el.addEventListener('mouseleave', () => cursor.classList.remove('hover'));
   });
 }
+
+/* Resume: one click opens the PDF in a new tab AND saves a copy.
+   The link itself opens the tab (works even without JS); this adds the download. */
+(function () {
+  var FILE = 'Tahsin_Jawad_Senior_Mobile_Engineer_Resume.pdf';
+  document.querySelectorAll('.js-resume').forEach(function (link) {
+    link.addEventListener('click', function () {
+      var a = document.createElement('a');
+      a.href = link.getAttribute('href');
+      a.download = FILE;
+      a.style.display = 'none';
+      document.body.appendChild(a);
+      a.click();
+      setTimeout(function () { a.remove(); }, 0);
+    });
+  });
+})();
