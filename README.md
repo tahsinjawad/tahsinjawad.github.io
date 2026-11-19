@@ -25,6 +25,7 @@ assets/js/script.js      nav, theme toggle, scroll reveal
 assets/img/profile.webp  profile photo (4:5, WebP)
 assets/img/apps/         app icons (192px WebP)
 favicon.*, icon-*.png    favicons, Apple touch icon, manifest icons
+Tahsin_Jawad_Senior_Mobile_Engineer_Resume.pdf   downloadable resume
 ```
 
 ## Run locally
@@ -37,6 +38,7 @@ Open http://localhost:8000.
 
 ## Editing
 
+- Resume: replace `Tahsin_Jawad_Senior_Mobile_Engineer_Resume.pdf` with the new PDF, same filename, so every link keeps working.
 - Projects and roles live in the `<article>` blocks in `index.html`.
 - Swap the photo by replacing `assets/img/profile.webp`. Keep it 4:5 and save as WebP.
 - Accent colour is `--accent` at the top of `style.css`.

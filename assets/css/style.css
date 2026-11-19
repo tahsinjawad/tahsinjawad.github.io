@@ -516,3 +516,5 @@ img { max-width: 100%; display: block; }
 .work-body .chips { margin-bottom: 0; }
 @media (max-width: 940px) { .expertise-grid { grid-template-columns: repeat(3, 1fr); } }
 @media (max-width: 720px) { .expertise-grid { grid-template-columns: 1fr; } }
+.contact-actions { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+.btn svg { flex-shrink: 0; }
